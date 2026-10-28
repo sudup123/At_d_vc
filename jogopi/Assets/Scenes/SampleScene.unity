@@ -699,6 +699,8 @@ GameObject:
   - component: {fileID: 894079357}
   - component: {fileID: 894079356}
   - component: {fileID: 894079360}
+  - component: {fileID: 894079362}
+  - component: {fileID: 894079361}
   m_Layer: 2
   m_Name: personagem principal
   m_TagString: Player
@@ -740,17 +742,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.011996031, y: 0.022265911}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.44, y: 3.05}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5198267, y: 3.148695}
   m_EdgeRadius: 0
 --- !u!50 &894079357
 Rigidbody2D:
@@ -828,8 +830,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -7592463368050987717, guid: 85dc59410059dae43afb1f11217ed16d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -847,8 +849,8 @@ Transform:
   m_GameObject: {fileID: 894079355}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.87, y: -0.86, z: 0}
-  m_LocalScale: {x: 1.6378456, y: 1.3965043, z: 1}
+  m_LocalPosition: {x: -3.15, y: 0.66, z: 0}
+  m_LocalScale: {x: 1.7061747, y: 1.4931272, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
@@ -868,6 +870,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::moviment_player
   velocidade: 5
   velocidadeCorrendo: 10
+--- !u!114 &894079361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894079355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e068741c666c3aa4ca9955808e46d99e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSprite
+  spriteBaixo: {fileID: 0}
+  spriteCima: {fileID: 0}
+  spriteEsquerda: {fileID: 5871441334544041340, guid: 85dc59410059dae43afb1f11217ed16d, type: 3}
+  spriteDireita: {fileID: -1723351912873679875, guid: 85dc59410059dae43afb1f11217ed16d, type: 3}
+--- !u!95 &894079362
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894079355}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d8c51c0b8548b2d47bb0bd0d3e9ff19e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1091897628
 GameObject:
   m_ObjectHideFlags: 0
