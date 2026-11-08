@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - PontoCorrida
+  - chao
+  - Chao
   layers:
   - Default
   - TransparentFX
