@@ -26,7 +26,7 @@ public class moviment_player : MonoBehaviour
 
         float velocidadeAtual = correndo ? velocidadeCorrendo : velocidade;
 
-        transform.Translate(movimento * velocidadeAtual * Time.deltaTime);
+        rb.linearVelocity = movimento * velocidadeAtual;
 
         // PULO
         if (Input.GetKeyDown(KeyCode.Space) && noChao)
