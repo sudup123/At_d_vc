@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -143,12 +143,12 @@ TextureImporter:
       name: person_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 480
-        width: 141
-        height: 307
+        x: 1
+        y: 481
+        width: 139
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: person_1
       rect:
         serializedVersion: 2
-        x: 155
-        y: 480
-        width: 146
-        height: 307
+        x: 156
+        y: 481
+        width: 144
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: person_2
       rect:
         serializedVersion: 2
-        x: 310
-        y: 480
-        width: 146
-        height: 307
+        x: 311
+        y: 481
+        width: 144
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: person_3
       rect:
         serializedVersion: 2
-        x: 576
-        y: 480
-        width: 141
-        height: 307
+        x: 577
+        y: 481
+        width: 139
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: person_4
       rect:
         serializedVersion: 2
-        x: 742
-        y: 480
-        width: 141
-        height: 307
+        x: 743
+        y: 481
+        width: 139
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: person_5
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 485
-        width: 162
-        height: 302
+        x: 1059
+        y: 486
+        width: 160
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: person_6
       rect:
         serializedVersion: 2
-        x: 1246
-        y: 391
-        width: 158
-        height: 396
+        x: 1247
+        y: 484
+        width: 157
+        height: 303
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: person_7
       rect:
         serializedVersion: 2
-        x: 521
-        y: 86
-        width: 135
-        height: 302
+        x: 522
+        y: 87
+        width: 133
+        height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: person_8
       rect:
         serializedVersion: 2
-        x: 681
-        y: 81
-        width: 135
-        height: 307
+        x: 682
+        y: 82
+        width: 133
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: person_9
       rect:
         serializedVersion: 2
-        x: 847
-        y: 81
-        width: 135
-        height: 301
+        x: 848
+        y: 82
+        width: 133
+        height: 299
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95604d015398b464590aacd5b05d4cfc
     internalID: 0
     vertices: []
     indices: 
@@ -371,7 +371,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       person_0: 6861894420282137670
       person_1: -7592463368050987717
