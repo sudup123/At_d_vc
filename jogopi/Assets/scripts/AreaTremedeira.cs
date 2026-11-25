@@ -1,5 +1,5 @@
 
-using UnityEditor.Rendering.LookDev;
+
 using UnityEngine;
 
 public class AreaTremedeira : MonoBehaviour
